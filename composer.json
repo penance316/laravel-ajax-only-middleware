@@ -1,0 +1,21 @@
+{
+    "name": "penance316/laravel-ajax-only-middleware",
+    "description": "laravel middleware to allow ajax only calls",
+    "keywords": ["laravel", "middleware", "ajax"],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nero Denney",
+            "email": "penance316@gmail.com",
+            "homepage": "https://nerodenney.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Penance316\\Middleware\\": "src"
+        }
+    }
+}
